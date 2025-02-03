@@ -1,71 +1,71 @@
+# 在线编辑你的简历吧！
 basics:
-  name: 凉宫春日
-  id: Suzumiya Haruhi
-  birth: 10-08
+  name: 黄川桂
+  id: castor resume
+  birth: 2002-01
   # avatar: https://s4.anilist.co/file/anilistcdn/character/medium/b251-I9jd3QatfZKA.jpg
-  bio: 我对普通的人类没有兴趣。你们之中要是有外星人、未来人、异世界的人、超能力者，就尽管来找我吧。
-  age: 16岁
-  location: 日本，兵库县
+  # bio: 我对普通的人类没有兴趣。你们之中要是有外星人、未来人、异世界的人、超能力者，就尽管来找我吧。
+  age: 23岁
+  location: 上海
 
 contact:
   email:
-    href: mailto:sos@yunyoujun.cn
+    href: mailto:castor_ye@163.com
     icon: ri:mail-line
-    label: sos@yunyoujun.cn
+    label: castor_ye@163.com
   phone:
-    href: tel:166 6666 6666
+    href: tel:178-2802-6195
     icon: ri:smartphone-line
-    label: 166 6666 6666
+    label: 178-2802-6195
   blog:
-    href: http://www.haruhi.tv/
+    href: https://www.3000ye.com/
     icon: ri:earth-line
-    label: http://www.haruhi.tv/
+    label: 3000ye.com
   github:
-    href: https://github.com/YunYouJun
+    href: https://github.com/3000ye
     icon: ri:github-line
-    label: YunYouJun
+    label: 3000ye
 
 education:
   icon: fa:graduation-cap
   title: 教育背景
   histories:
-    - school: 县立北高校
-      icon: 'ri:building-line'
-      start: 20xx 年 9 月
-      end: 20xx 年 6 月
-      grade: 'GPA: 3.93，均分 92.3（专业第一）'
-      area: SOS 团
-      studyType: 高中
-      city: 日本，兵库县
-    - school: 市立东中
+    - school: 东华大学
       icon: 'ri:building-2-line'
-      start: 20xx 年 9 月
-      end: 20xx 年 6 月
-      grade: 'GPA: 3.33（专业前 10%）， CET-6'
-      area: 计算机科学与技术
-      studyType: 初中
-      city: 日本，兵库县
+      start: 2024 年 9 月
+      end: 2027 年 6 月
+      grade: ''
+      area: 计算机科学与技术（保研）
+      studyType: 硕士
+      city: 上海
+    - school: 东华大学
+      icon: 'ri:building-line'
+      start: 2020 年 9 月
+      end: 2024 年 6 月
+      grade: ''
+      area: 市场营销，人工智能试验班（第二学士学位）
+      studyType: 本科
+      city: 上海
 
 project:
   icon: ri:folders-line
-  title: 项目经历
+  title: 实习/项目经历
   sets:
-    - name: SOS 团
+    - name: 上海香农智慧数字科技有限公司
       logo: ri:cloud-line
-      type: 组建社团
-      start: 20XX 年 5 月
+      type: 实习
+      start: 2024 年 8 月
       end: 至今
-      url: 'http://www.haruhi.tv/'
-      summary: 让世界变得更热闹的凉宫春日团
+      # url: 'http://www.haruhi.tv/'
+      summary: 主要工作：FastAPI 后端开发，产品经理，交易系统开发
       keywords:
-        - name: Html
-          icon: simple-icons:html5
-        - name: Css
-          icon: simple-icons:css3
-        - name: JavaScript
-          icon: simple-icons:javascript
-        - name: yaml
-          icon: file-icons:yaml
+        - name: Python3
+          icon: simple-icons:python
+        - name: FastAPI
+          icon: simple-icons:fastapi
+        - name: Vite
+          icon: simple-icons:vite
+        - name: Vue.js
       highlights:
         - 以优秀的组织能力组建社团，并找寻到优秀的部员
         - 指使部下 阿虚 开发 SOS 团官网，获得千万级 PV
@@ -158,7 +158,7 @@ skill:
           icon: simple-icons:sass
         - name: 'stylus == '
           icon: simple-icons:stylus
-        - name: Python，
+        - name: Python
           icon: simple-icons:python
         - name: ''
           icon: simple-icons:php
